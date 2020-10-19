@@ -1,0 +1,29 @@
+Broj elemenata / Algoritam :		|______BUBBLE______|______INSERTION______|______MERGE______|______QUICK______|______HEAP_____|_____BUCKET_____|_____COUNTING_____|
+		100		|     0.00051      |        0.00034      |    0.00032      |      0.00072    |	  0.00038    |    0.00014     |     0.00004      |  
+		1K		|     0.05678      |        0.02935	 |    0.00549      |      0.00428    |    0.00681    |    0.00109     |     0.00039      |
+		10K		|     5.65799      |        3.56202      |    0.04503      |      0.03801    |    0.07749    |    0.00949     |     0.00501      |
+		100K		|    438.94686     |      335.35252	 |    0.49391      |      0.31334    |	  0.83428	   |    0.11968     |     0.05141      |    
+		1M		|      ------      |        --------	 |    8.33181      |      4.77017    |	 14.86114	   |    1.99121     |     1.17118      |
+				----------------------------------------------------------------------------------------------------------------------------------
+		
+				        O(n^2)     |      O(n^2)         |   O(n*lg(n))    |    O(n*lg(n))   |  O(n*lg(n))   |     O(n+k)     |      O(n+k)           
+				
+				
+* Vremenska kompleksnost bubblesort i insertion sort algoritama raste sa kvadratom broja elemenata koje treba sortirati; pogodni su za manje nizove
+  ili za sortiranje podnizova u sklopu naprednijih algoritama sortiranja (npr. bucket sort)
+  
+* Rekurzivni algoritmi tipa "Divide and Conquer" (Merge i Quick) imaju prosječno vrijeme izvršavanja O(n*lg(n)) jer se rekurzivno granaju lg(n) puta
+  a funkcije merge i partition sadrže jednostruku petlju tako da se ukupno izvršavaju lg(n) * n puta
+  
+* Heapsort podrazumijeva da su podaci organizovani u strukturu podataka heap (logička struktura stabla, fizička struktura statičkog niza) nakon čega
+  se iterativno vrši uklanjanje "korijena" heapa(najvećeg/najmanjeg člana) i njegova rekonstrukcija. Prosječno vrijeme izvršavanja je O(n*lg(n)) i 
+  u opštem slučaju je sporiji od "Divide and Conquer" algoritama ove složenosti
+  
+* Bucket sort je algoritam koji sortira n elemenata u k podlista nakon čega se poziva neki drugi algoritam sortiranja za ove liste. Nakon toga se vrši
+  konkatenacija ovih podlista u jednu sortiranu listu. Vremenska kompleksnost je linearna i zavisi od broja elemenata i broja podlista. Mana ovog algoritma
+  je veliko prostorno zauzeće s obzirom da se mora alocirati dodatni prostor za podliste.
+  
+* Counting sort je pogodan za sortiranje elemenata čije vrijednosti imaju mali opseg. Funkcioniše tako što se broji koliko puta se ponavlja svaka vrijednost
+  unutar niza te se na osnovu toga popunjava sortirani niz. Algorizam zahtijeva poznavanje opsega vrijednosti. Složenost zavisi od broja elemenata i opsega vrijednosti.
+  
+  

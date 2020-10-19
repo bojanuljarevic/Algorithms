@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="dinamicko" />
+    <orderEntry type="module" module-name="v9" />
+    <orderEntry type="module" module-name="Hash" />
+    <orderEntry type="module" module-name="Kripto" />
+    <orderEntry type="module" module-name="najkraca" />
+    <orderEntry type="module" module-name="insertion" />
+    <orderEntry type="module" module-name="v11" />
+    <orderEntry type="module" module-name="Test1_rly" />
+  </component>
+</module>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Hash/.idea/Hash.iml" filepath="$PROJECT_DIR$/../../Hash/.idea/Hash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Kripto/.idea/Kripto.iml" filepath="$PROJECT_DIR$/../../Kripto/.idea/Kripto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Test1/.idea/Test1_rly.iml" filepath="$PROJECT_DIR$/../../Test1/.idea/Test1_rly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bin_tree.iml" filepath="$PROJECT_DIR$/.idea/bin_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../dinamicko/.idea/dinamicko.iml" filepath="$PROJECT_DIR$/../../dinamicko/.idea/dinamicko.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../sorting/.idea/insertion.iml" filepath="$PROJECT_DIR$/../../sorting/.idea/insertion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../najkraca/.idea/najkraca.iml" filepath="$PROJECT_DIR$/../../najkraca/.idea/najkraca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../v11/.idea/v11.iml" filepath="$PROJECT_DIR$/../../v11/.idea/v11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../graf/v9/.idea/v9.iml" filepath="$PROJECT_DIR$/../../graf/v9/.idea/v9.iml" />
+    </modules>
+  </component>
+</project>
